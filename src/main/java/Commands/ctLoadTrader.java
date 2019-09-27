@@ -71,7 +71,6 @@ public class ctLoadTrader implements CommandExecutor {
                 return trader;
             }
         }
-
         return null;
     }
 

@@ -8,3 +8,6 @@ commands:
   ctLoadTrader:
     description: loads the trader configuration from disk.
     usage: /ctLoadTrader
+  ctreload:
+    description: reloads the configuration file from disk.
+    usage: /ctreload
