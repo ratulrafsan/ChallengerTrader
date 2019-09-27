@@ -1,0 +1,30 @@
+traders:
+  trader1:
+    1:
+      sell:
+        item: DIAMOND_HOE
+        amount: 1
+      buy:
+          buy1:
+            item: GRASS_BLOCK
+            amount: 64
+          buy2:
+            item: DIRT
+            amount: 32
+    2:
+      sell:
+        item: DIRT
+        amount: 1
+      buy:
+        buy1:
+          item: BONE
+          amount: 1
+  trader2:
+    1:
+      sell:
+        item: DIRT
+        amount: 1
+      buy:
+        buy1:
+          item: BONE
+          amount: 1

@@ -1,0 +1,10 @@
+name: Challanger-Trader
+version: 1.0
+author: Rafsan Ratul
+main : PluginEntry
+api-version: 1.14
+website: http://ratulrafsan.github.com
+commands:
+  ctLoadTrader:
+    description: loads the trader configuration from disk.
+    usage: /ctLoadTrader
