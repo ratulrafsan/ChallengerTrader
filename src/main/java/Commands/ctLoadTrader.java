@@ -73,7 +73,6 @@ public class ctLoadTrader implements CommandExecutor {
         }
         return null;
     }
-
     /**
      * Retrieves all trading recipes for all the traders from configuration and converts them to a bukkit usable form.
      * @return A hash map containing the trading recipe list for all defined traders.
