@@ -1,4 +1,4 @@
-name: Challanger-Trader
+name: Challenger-Trader
 version: 1.0
 author: Rafsan Ratul
 main : PluginEntry
@@ -6,8 +6,23 @@ api-version: 1.14
 website: http://ratulrafsan.github.com
 commands:
   ctLoadTrader:
+    aliases: [ctl]
+    permission: ct.load
     description: loads the trader configuration from disk.
     usage: /ctLoadTrader
   ctreload:
+    aliases: [ctr]
+    permission: ct.reload
     description: reloads the configuration file from disk.
     usage: /ctreload
+permissions:
+  ct.*:
+    description: Gives access to all challenger trader commands.
+    children:
+      ct.reload: true
+      ct.load: true
+  ct.reload:
+    description: Allows you to reload updated trade configuration from config.yml.
+    default: op
+  ct.load:
+    description: Updates merchant trade information accordingly

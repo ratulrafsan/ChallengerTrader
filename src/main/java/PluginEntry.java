@@ -28,7 +28,9 @@ public class PluginEntry extends JavaPlugin{
         //Save config, clear cache etc.
     }
 
-
+    /*
+        Plugin configuration reloader.
+     */
     public boolean onCommand(CommandSender sender, Command command, String label, String[] params){
         if(command.getName().equalsIgnoreCase("ctreload")){
             File cFile = new File(getDataFolder(), "config.yml");
